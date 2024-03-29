@@ -3,6 +3,7 @@ import styles from './css/projetos.module.css'
 import Fotter from './footer.jsx';
 const github = "https://github.com/0RyanSouza0"
 
+
 function Projetos(props){
     return(
         
@@ -23,7 +24,7 @@ function Projetos(props){
                 <div className={styles.btn_informacoes}>
                     <a href={github} target='__blank'> Github</a>
 
-                    <a href="" target='__blank' className={styles.btn_ver}>Ver </a>
+                    <a href={props.link_projeto}  target='__blank' className={styles.btn_ver}>Ver </a>
 
                 </div>
             </div>

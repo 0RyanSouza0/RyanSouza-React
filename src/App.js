@@ -15,8 +15,9 @@ function App() {
         <NavBar></NavBar>
         <Main></Main>
         <Descricao></Descricao>
-        <Fotter></Fotter>
+        
         <Page2></Page2>
+        <Fotter></Fotter>
       
         
     </div>
