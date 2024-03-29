@@ -1,0 +1,78 @@
+.card_projeto {
+  background: #262626;
+  border: none;
+  border-radius: 10px;
+  padding: 4px 15px;
+  width: auto;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  transition: 400ms;
+  justify-content: space-between;
+}
+.card_projeto:hover {
+  scale: 1.06;
+}
+.card_projeto .img_projeto img {
+  width: 220px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card_projeto .informacoes_projeto p {
+  font-size: 1rem;
+  max-width: 300px;
+  word-break: normal;
+  text-align: justify;
+  color: rgba(255, 255, 255, 0.598);
+  font-weight: 300px;
+}
+.card_projeto .informacoes_projeto h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: white;
+}
+.card_projeto .btn_informacoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 20px;
+}
+.btn_informacoes a {
+  background: #bbbbbb;
+  padding: 5px 7px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: black;
+  text-align: center;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.btn_informacoes a:hover {
+  background-color: rgba(213, 211, 211, 0.591);
+}
+
+.btn_informacoes .btn_ver {
+  background: white;
+  padding: 5px 7px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: black;
+  text-decoration: none;
+
+  text-align: center;
+  border: 1px solid white;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  width: 100px;
+}
+.btn_informacoes .btn_ver:hover {
+  background-color: transparent;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}

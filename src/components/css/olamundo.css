@@ -1,0 +1,6 @@
+.App button {
+  border-radius: 10px;
+  padding: 8px;
+  background-color: rgb(0, 255, 8);
+  color: black;
+}

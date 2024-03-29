@@ -1,0 +1,62 @@
+.align_sobre_mim {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  background: #262626;
+  padding: 30px 0px;
+
+  margin-top: 150px;
+}
+.align_sobre_mim .descricao {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.descricao h2 {
+  font-size: 1.4rem;
+  color: white;
+}
+.descricao p {
+  max-width: 550px;
+  word-break: normal;
+  text-align: justify;
+  font-size: 1rem;
+  color: white;
+  margin: 0;
+}
+.linha .social_link {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 11px 14px;
+  transition: 0.2s all ease-in-out;
+}
+.social_link .icon {
+  color: #141416;
+  font-size: 2.5rem;
+}
+.social_link:hover {
+  background-color: rgba(255, 255, 255, 0.852);
+  transition: 0.2s all ease-in-out;
+}
+
+.conhecimentos {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0px;
+}
+.conhecimentos h2 {
+  font-size: 1.4rem;
+  color: white;
+}
+.conhecimentos .linha {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 300px;
+  margin: 10px 0px;
+}
