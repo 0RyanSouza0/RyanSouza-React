@@ -5,7 +5,7 @@ function Fotter(){
     return(
         <div className={styles.align_footer}>
             <p>@ 2024 Ryan Souza </p>
-            <p>Design feito por: Vinicius Santos <a href={github}><FaGithub className={styles.icon_footer}> </FaGithub></a> </p>
+            <p>Design: Vinicius Santos <a href={github}><FaGithub className={styles.icon_footer}> </FaGithub></a> </p>
         </div>
     )
 }

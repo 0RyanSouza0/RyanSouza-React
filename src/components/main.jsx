@@ -10,7 +10,7 @@ const instagram = "https://www.instagram.com/ryan__souza/"
 function Main(){
     return(
 
-        <div className={styles.align_main}>
+        <div className={styles.align_main} id='contato'>
             <div className={styles.img}>
                 <img src={foto} alt="" />
             </div>
@@ -21,12 +21,12 @@ function Main(){
                 </div>
 
                 <div className={styles.sobre}>
-                    <p className={styles.desc}>Lorem ipsum dolor sit,<span> amet consectetur adipisicing elit.</span> Aliquam, quidem! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Magnam, veniam?</p>
+                    <p className={styles.desc}>Sou estudante de Analise e Desevolvimento de Sistemas, estou me especializando em diversas linguagens para me tornar um <span>Full-Stack Developer.</span>  
+                    </p>
                 </div>
 
 
-                <div className={styles.redes_sociais}>
+                <div className={styles.redes_sociais} >
                     <a href={github} className={styles.social_link} target='__blank' ><FaGithub className={styles.icon}></FaGithub></a>
                     <a href={linkedin} className={styles.social_link} target='__blank'><FaLinkedin className={styles.icon}></FaLinkedin></a>
                     <a href={instagram} className={styles.social_link} target='__blank'><FaInstagram className={styles.icon}></FaInstagram></a>

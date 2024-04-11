@@ -9,7 +9,7 @@
 .align_footer p {
   margin: 0;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .align_footer a {
@@ -17,7 +17,7 @@
   text-decoration: none;
 }
 .align_footer a .icon_footer {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .align_footer a:hover {
   color: rgba(255, 255, 255, 0.713);
